@@ -1,0 +1,29 @@
+.searchBarDropdown {
+  width: 250px !important;
+}
+
+#dateInput1 {
+  border-radius: 5px;
+  height: 38px;
+}
+
+#dateInput2 {
+  border-radius: 5px;
+  height: 38px;
+}
+
+.searchInput {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.searchInput > * {
+  border-radius: 5px;
+  height: 38px;
+}
+
+.searchIco {
+  position: absolute;
+  left: 5px;
+  height: 100%;
+}

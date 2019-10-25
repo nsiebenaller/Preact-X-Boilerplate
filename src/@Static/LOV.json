@@ -1,0 +1,55 @@
+{
+  "lovTypes": [
+    {
+      "label": "All Types",
+      "value": "All Types"
+    },
+    {
+      "label": "Applicant Type",
+      "value": "Applicant Type"
+    },
+    {
+      "label": "Applicant Ethnicity",
+      "value": "Applicant Ethnicity"
+    },
+    {
+      "label": "Applicant Human Source",
+      "value": "Applicant Human Source"
+    },
+    {
+      "label": "Applicant Submitter Role",
+      "value": "Applicant Submitter Role"
+    },
+    {
+      "label": "Compliance Role",
+      "value": "Compliance Role"
+    },
+    {
+      "label": "Compliance Task Result",
+      "value": "Compliance Task Result"
+    }
+  ],
+  "lovStatuses": [
+    {
+      "label": "All Statuses",
+      "value": "All Statuses"
+    },
+    {
+      "label": "Active",
+      "value": "Active"
+    },
+    {
+      "label": "Deleted",
+      "value": "Deleted"
+    }
+  ],
+  "lovHeaders": {
+    "LOV Type": "type",
+    "Status": "status",
+    "Sort Order": "sortOrder",
+    "System Code": "sysCode",
+    "Name": "name",
+    "Description": "description",
+    "Actions": "actions"
+  }
+}

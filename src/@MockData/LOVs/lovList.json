@@ -1,0 +1,74 @@
+[
+  {
+    "id": 0,
+    "type": "Applicant Type",
+    "status": "Active",
+    "sortOrder": 1,
+    "sysCode": "A_STATE_GOVERNMENT",
+    "name": "D: Special District Government",
+    "description": "D: Special District Government"
+  },
+  {
+    "id": 1,
+    "type": "Applicant Type",
+    "status": "Active",
+    "sortOrder": 1,
+    "sysCode": "O_PRIVATE_INSTITUTION_OF_HIGHER_EDUCATION",
+    "name": "D: Independent School District",
+    "description": "D: Independent School District"
+  },
+  {
+    "id": 2,
+    "type": "Application Ethnicity",
+    "status": "Active",
+    "sortOrder": 4,
+    "sysCode": "HISPANIC_OR_LATINO",
+    "name": "African American",
+    "description": "African American"
+  },
+  {
+    "id": 3,
+    "type": "Application Human Source",
+    "status": "Active",
+    "sortOrder": 5,
+    "sysCode": "INDUSTRY_LARGE_BUSINESS",
+    "name": "Industry Large Business (>500 employees)",
+    "description": "Industry Large Business"
+  },
+  {
+    "id": 4,
+    "type": "Application Submitter Role",
+    "status": "Active",
+    "sortOrder": 21,
+    "sysCode": "ALT_SUBMITTER",
+    "name": "Alternate Submitter",
+    "description": "Alternate Submitter"
+  },
+  {
+    "id": 5,
+    "type": "Application Type",
+    "status": "Inactive",
+    "sortOrder": 7,
+    "sysCode": "FULL_APPLICATION",
+    "name": "Full Application",
+    "description": "Full Application"
+  },
+  {
+    "id": 6,
+    "type": "Award Type Category",
+    "status": "Inactive",
+    "sortOrder": 8,
+    "sysCode": "107_107",
+    "name": "Other",
+    "description": "Other"
+  },
+  {
+    "id": 7,
+    "type": "Compliance Role",
+    "status": "Deleted",
+    "sortOrder": 4,
+    "sysCode": "CR",
+    "name": "Compliance Reviewer",
+    "description": "Compliance Reviewer"
+  }
+]

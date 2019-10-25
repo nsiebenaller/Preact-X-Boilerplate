@@ -1,0 +1,113 @@
+/* ActionBar css */
+.actionBar {
+  display: flex;
+  margin-top: 20px;
+}
+.actionBar > div {
+  margin-right: 10px;
+}
+.actionBar > div > div:nth-child(1) {
+  margin-bottom: 5px;
+}
+.minDD {
+  width: 100px !important;
+}
+.actionDD {
+  width: 150px !important;
+}
+.expandedDD {
+  width: 200px !important;
+}
+.mediumDD {
+  width: 300px !important;
+}
+.largeDD {
+  width: 400px !important;
+}
+.actionBtn {
+  margin-top: 22px;
+}
+
+/* UserTable css */
+.actionCell {
+  display: flex;
+  flex-direction: row;
+}
+.icoRow {
+  display: flex;
+  align-items: center;
+  color: #2196f3;
+  fill: #2196f3;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.icoRow:hover {
+  color: #1976d2;
+  fill: #1976d2;
+}
+.userDD {
+  width: 215px;
+}
+.smDD {
+  max-width: 75px;
+}
+
+/* UserRow css */
+.userRow {
+  text-align: left;
+}
+.userRow td:first-child {
+  padding-left: 20px;
+  width: 50px;
+}
+.inputErr {
+	border: 1px solid red !important;
+}
+
+
+/* Info css */
+.infoContainer > div {
+  margin-top: 15px;
+}
+.header {
+  font-size: 21px;
+  font-weight: bolder;
+}
+.subContainer {
+  display: flex;
+}
+.subContainer > div {
+  margin-right: 10px;
+}
+.passValid {
+  margin-top: 5px;
+  font-size: 13px;
+}
+.passValid > div {
+  display: flex;
+  align-items: center;
+}
+.indent {
+  margin-left: 20px;
+}
+.indentErr {
+  margin-left: 20px;
+  /*color: #f44336;*/
+}
+.tinyIco {
+  width: 21px;
+  height: 21px;
+}
+.tinyIco > i {
+  font-size: 21px !important;
+}
+.tinyIcoErr > i {
+  font-size: 21px !important;
+  /*color: #f44336;*/
+}
+
+
+/* AccountInfo css */
+.secQuesDD {
+  width: 400px;
+}

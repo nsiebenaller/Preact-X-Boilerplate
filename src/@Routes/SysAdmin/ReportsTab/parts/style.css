@@ -1,0 +1,84 @@
+.aBar {
+  flex-wrap: wrap;
+}
+.aBar > fieldset {
+  margin-top: 10px;
+}
+.aBar > fieldset:nth-child(2) {
+  width: auto;
+}
+.aBar legend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fieldGroup {
+  padding: 10px 10px 5px 10px;
+}
+.fieldGroup > p {
+  margin-bottom: 5px;
+}
+
+.buttonGroup {
+  margin-top: 48px;
+  margin-right: 15px;
+}
+
+.reportDD {
+  width: 230px;
+}
+.reportDD > div:nth-child(1) {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.reportDDsm {
+  width: 130px;
+}
+
+.disabled {
+  border-color: #eeeeee;
+  color: #bdbdbd;
+}
+.disabled > div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 52px;
+  color: #bdbdbd;
+}
+
+/* COMP LOG TABLE */
+.reportRow > td {
+  text-align: left;
+  padding-left: 15px;
+}
+.reportRow > td:nth-child(2) {
+  width: 180px;
+}
+.reportRow > td:nth-child(3) {
+  width: 180px;
+}
+.reportRow > td:nth-child(4) {
+  width: 180px;
+}
+.reportRow > td:nth-child(5) {
+  width: 180px;
+}
+.reportRow > td:nth-child(6) {
+  width: 180px;
+}
+.reportHead {
+  background-color: white;
+}
+.reportHeader {
+  white-space: nowrap;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  line-height: 70px;
+}

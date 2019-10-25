@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[23],{436:function(e){e.exports=JSON.parse('[{"id":1,"mechanism":"Basic Award Type 1"},{"id":2,"mechanism":"Intermediate Award Type 1"},{"id":3,"mechanism":"Advanced Award Type 1"},{"id":4,"mechanism":"Super Duper Award Type 1"},{"id":5,"mechanism":"Special Award Type 1"}]')}}]);
+//# sourceMappingURL=23.bundle.js.map

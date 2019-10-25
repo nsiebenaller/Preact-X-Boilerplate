@@ -1,5 +1,6 @@
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
+import './style/index.less';
 
 import { h, Component, render } from 'preact';
 import App from './App/App.js'

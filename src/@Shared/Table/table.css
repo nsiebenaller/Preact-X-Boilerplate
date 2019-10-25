@@ -1,0 +1,217 @@
+
+/* TABLE HEADER */
+.tableHeader {
+  background-color: #c6d3e5;
+}
+th {
+  height: 50px;
+  font-weight: bold;
+  font-size: 18px;
+  user-select: none;
+}
+th:hover {
+  cursor: pointer;
+}
+th > div {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  display: flex;
+  white-space: nowrap;
+}
+th * {
+  user-select: none;
+}
+.muiIcon {
+  width: 24px;
+  height: 24px;
+  top: 10px;
+  float: left;
+}
+.visNone {
+  visibility: hidden !important;
+}
+.headerText {
+  padding-top: 2px;
+  float: left;
+}
+.headerIcon {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -3px;
+}
+.muiTop {
+
+}
+.muiBot {
+
+}
+.iconContainer {
+  height: 8px;
+}
+
+/* TABLE */
+.table {
+  width: 100%;
+  min-width: 1380px;
+  border-collapse:separate;
+  border-spacing:0px 5px;
+  padding: 5px;
+}
+.container {
+  width: 100%;
+  /*overflow: auto;*/
+}
+
+/* ACTION COMPONENT */
+.actionComponent {
+  float: left;
+}
+
+/* PAGINATOR */
+.paginator {
+  float: right;
+}
+.pPage {
+  cursor: pointer;
+  float: left;
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+  padding-top: 5px;
+  text-align: center;
+  border: 1px solid #979797;
+  background-color: white;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #dcdcdc));
+  background: -webkit-linear-gradient(top, #fff 0%, #dcdcdc 100%);
+  background: -moz-linear-gradient(top, #fff 0%, #dcdcdc 100%);
+  background: -ms-linear-gradient(top, #fff 0%, #dcdcdc 100%);
+  background: -o-linear-gradient(top, #fff 0%, #dcdcdc 100%);
+  background: linear-gradient(to bottom, #fff 0%, #dcdcdc 100%);
+}
+.pPage:hover {
+    background: #E0E0E0;
+}
+.pActive {
+  background: #BDBDBD;
+  cursor: default;
+}
+.pActive:hover {
+  background: #BDBDBD;
+}
+.pButton {
+  cursor: pointer;
+  float: left;
+  height: 30px;
+  margin-left: 10px;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  font-size: 16px;
+  user-select: none;
+}
+.pButton:hover {
+  background: #EEEEEE;
+}
+.pCont {
+  float: left;
+  height: 30px;
+  margin-left: 10px;
+  cursor: default;
+  font-weight: bold;
+}
+
+/* SHOWING */
+.showing {
+  float: left;
+  margin-left: 5px;
+  margin-right: 20px;
+  padding-top: 5px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* NUM ENTRIES */
+.entries {
+  float: left;
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+}
+.cDropdown {
+  position: relative;
+  width: auto;
+  height: auto;
+  margin: 0px 5px;
+  border-radius: 5px;
+  min-height: 1.1em;
+  height: 25px;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  padding: 5px 7px;
+  padding-right: 26px;
+  border: 1px solid lightgrey;
+  font-size: 14px;
+  transition: all .2s ease-out;
+  outline:0;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cDropdown * {
+  outline:0;
+}
+.cDropdown:hover {
+  border-color: black;
+}
+.cArrow {
+  position: absolute;
+  pointer-events: none;
+  right: 0;
+  top: 0;
+}
+.cDrop {
+  max-height: 300px;
+  overflow: auto;
+  position:absolute;
+  z-index: 1;
+  background-color: white;
+  padding: 10px 0px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 5px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.cClose {
+  display: none;
+}
+.cOption {
+  text-align: center;
+  padding: 10px 4px;
+  word-wrap:break-word;
+}
+.cOption:hover {
+  background-color: #EEEEEE;
+}
+
+.cSel {
+  background-color: #E0E0E0;
+}
+.cSel:hover {
+  background-color: #E0E0E0;
+}
+
+
+.cDisabled {
+  cursor: default;
+  color: grey;
+}
+.cDisabled:hover {
+  background: transparent !important;
+}

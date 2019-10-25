@@ -1,0 +1,164 @@
+/* LOV CSS */
+.lovActionBar {
+  width: 100%;
+  padding-bottom: 5px;
+  border-bottom: 1px solid lightgrey;
+  margin-bottom: 10px;
+  overflow-y: visible;
+  height: auto;
+  display: flex;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+}
+.lovOption {
+  width: 250px;
+  max-height: 300px;
+  margin-right: 20px;
+}
+.lovText {
+  margin-top: 40px;
+  margin-right: 20px;
+}
+.lovActions {
+  padding-top: 30px;
+}
+.lovActions > div {
+  margin-right: 10px;
+}
+
+/* NEW LOV CSS */
+.newLov {
+  position: relative;
+  width: 100%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  margin-top: 20px;
+}
+.newLovHeader {
+  position: relative;
+  width: 100%;
+  height: 35px;
+  padding-left: 20px;
+  font-weight: bolder;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.newLovBody {
+  padding: 20px;
+  display: flex;
+}
+.newLovBody > div {
+  margin-right: 20px;
+  width: 100%;
+}
+.newLovBody > div:last-child {
+  margin-right: 0px;
+}
+.newLovBody > div > input {
+  width: 100%;
+}
+.newLovActions {
+  width: 100%;
+  padding: 0px 20px 20px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.lovBtn {
+  margin-left: 10px;
+  border: 1px solid #2196F3 !important;
+  color: #2196F3 !important;
+}
+.lovBtn:hover {
+  background-color: #E3F2FD !important;
+}
+.btnHolder {
+  position: relative;
+  width: 100%;
+  height: 40px;
+}
+.addBtn {
+  position: absolute;
+  right: 0;
+}
+
+/* LOV TABLE CSS */
+.lovTableContainer {
+  margin-top: 20px;
+  overflow: auto;
+}
+.lovTable {
+  overflow: hidden;
+  white-space: nowrap;
+	border-spacing: 0px;
+}
+.lovTable > thead {
+	background-color: #424242;
+	color: white;
+}
+.lovTable th {
+	border-left: 1px solid white;
+	padding-left: 10px;
+  padding-right: 10px;
+}
+.lovTable th svg {
+  fill: white !important;
+}
+
+.lovRow {
+  text-align: left !important;
+  text-align: center;
+  height: 70px;
+  outline: 1px solid lightgrey;
+  background-color: #FAFAFA;
+}
+.lovRow > td {
+  padding-left: 20px;
+}
+.lovRowEdit {
+  background-color: #e2e9f2 !important;
+}
+.lovRowShort {
+  width: 20px !important;
+}
+.lovRowActions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lovRowIcon {
+  width: 36px;
+  height: 36px;
+  padding: 5px;
+  fill: #2196F3;
+  color: #2196F3;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lovRowIcon:hover {
+  border-radius: 50%;
+  background-color: #E3F2FD;
+}
+.lovRowIcon > i {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+
+.newRow {
+  background: #fffdeb;
+}
+
+.newCell {
+  display: flex;
+}
+.newCell > div {
+  margin-right: 10px;
+}
+.newCell > div:nth-child(2) {
+  color: red;
+}

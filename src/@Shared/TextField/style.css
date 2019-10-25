@@ -1,0 +1,53 @@
+/* TEXT FIELD CSS */
+.cContainer {
+  position: relative;
+}
+.cTextLabel {
+  margin-top: 15px;
+}
+.cTextfield {
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  padding: 10px 14px;
+  outline: 0;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+
+.cTextfield:focus, .cTextfield:hover {
+  border: 1px solid black;
+}
+.cTextfield:focus ~ .icon {
+  color: black;
+}
+.cTextfield:hover ~ .icon {
+  color: black;
+}
+.fullWidth {
+  width: 100%;
+}
+.extraPadding {
+  padding-left: 30px;
+}
+.icon {
+  transition: all .2s ease-out;
+  display: flex;
+  top: 0;
+  left: 0;
+  position: absolute;
+  margin-left: 5px;
+  height: 100%;
+  align-items: center;
+  user-select: none;
+  pointer-events: none;
+  color: #bfbfbf;
+}
+
+.disabled {
+  border: 1px solid lightgrey;
+  cursor: not-allowed;
+}
+.disabled:hover {
+  border: 1px solid lightgrey;
+}

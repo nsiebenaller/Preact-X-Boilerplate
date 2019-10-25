@@ -1,0 +1,65 @@
+[
+  {
+    "label": "Test Label",
+    "startDate": "2019-06-01",
+    "endDate": "2019-06-30",
+    "isFinal": false,
+    "documents": [],
+    "id": 999,
+    "type": "Monthly"
+  },
+  {
+    "label": "Test Label",
+    "startDate": "2019-06-01",
+    "endDate": "2019-06-30",
+    "isFinal": false,
+    "documents": [{
+      "submittedOn": 1566910515261,
+      "isRevised": false,
+      "limitedDistribution": true,
+      "revisedReason": null,
+      "fileAttributeId": 650607,
+      "name": "BG180028_Funded..pdf",
+      "id": 1045,
+      "type": "Other"
+    }, {
+      "submittedOn": 1566838547338,
+      "isRevised": false,
+      "limitedDistribution": true,
+      "revisedReason": null,
+      "fileAttributeId": 650401,
+      "name": "SF-425 Federal Financial Report for TE160101.pdf",
+      "id": 1033,
+      "type": "Monthly Report"
+    }],
+    "id": 1018,
+    "type": "Monthly"
+  },
+  {
+    "label": "Test Label",
+    "startDate": "2019-05-01",
+    "endDate": "2019-05-30",
+    "isFinal": false,
+    "documents": [{
+      "submittedOn": 1566910515261,
+      "isRevised": false,
+      "limitedDistribution": true,
+      "revisedReason": null,
+      "fileAttributeId": 650607,
+      "name": "BG180028_Funded..pdf",
+      "id": 1045,
+      "type": "Other"
+    }, {
+      "submittedOn": 1566838547338,
+      "isRevised": false,
+      "limitedDistribution": true,
+      "revisedReason": null,
+      "fileAttributeId": 650401,
+      "name": "SF-425 Federal Financial Report for TE160101.pdf",
+      "id": 1033,
+      "type": "Monthly Report"
+    }],
+    "id": 111,
+    "type": "Monthly"
+  }
+]

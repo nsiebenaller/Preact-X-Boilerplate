@@ -1,0 +1,50 @@
+.headerRow {
+  margin-top: 20px;
+  background-color: #c6d3e5;
+  height: 50px;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+  border: 2px solid #c6d3e5;
+}
+.headerRow > div {
+  width: 200px;
+  text-align: center;
+  font-weight: bold;
+  height: 100%;
+  border-left: 2px solid #b2bdce;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.headerRow > div:nth-child(1) {
+  border-left: unset;
+  width: 500px;
+}
+
+.bodyRow {
+  border: 2px solid #e0e0e0;
+  height: 40px;
+  margin-top: 5px;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
+  color: #757575;
+  display: inline-flex;
+}
+.bodyRow:hover {
+  color: black;
+}
+.bodyRow > div {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  height: 100%;
+  border-left: 2px solid #e0e0e0;
+}
+.bodyRow > div:nth-child(1) {
+  border-left: unset;
+  width: 500px;
+}

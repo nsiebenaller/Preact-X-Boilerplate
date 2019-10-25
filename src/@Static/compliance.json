@@ -1,0 +1,24 @@
+{
+  "compAppHeaders": {
+  	"Select": "select",
+  	"Log Number": "logno",
+  	"Fiscal Year": "fy",
+  	"Program": "program",
+  	"Mechanism Option": "mechanism option",
+    "PreApp Status": "preAppStatus",
+    "FullApp Status": "fullAppStatus"
+  },
+  "compFundingOppHeaders": {
+    "Select": "select",
+    "Funding Opportunity": "fundingOpp",
+    "Number of Applications": "numApps",
+    "FY": "fy",
+    "Program": "program",
+    "PreApp Status": "preAppStatus",
+    "FullApp Status": "fullAppStatus"
+  },
+  "complianceActions": {
+  	"Run Compliance": [{"value": "Run Compliance Pre App", "label": "Pre App"}, {"value": "Run Compliance Full App", "label": "Full App"}],
+  	"Concatenate Files": [{"value": "Concatenate Files Pre App", "label": "Pre App"}, {"value": "Concatenate Files Full App", "label": "Full App"}]
+  }
+}

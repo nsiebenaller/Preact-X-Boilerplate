@@ -1,0 +1,60 @@
+{
+    "fileDtos": [{
+        "id": 0,
+        "filename": "Scientific Classification System Rev 17",
+        "filetype": "Federal Financial Report(SF-425).DOCX",
+        "filesize": 46081,
+        "uploadedBy": "Robinson-PI",
+        "uploadedOn": "08/30/2018 08:24:55"
+      },
+      {
+        "id": 1,
+        "filename": "Other Human Use Document.pdf",
+        "filetype": "Other",
+        "filesize": 47231,
+        "uploadedBy": "CARL-BO",
+        "uploadedOn": "08/12/2018 08:24:55"
+      },
+      {
+        "id": 2,
+        "filename": "Quad Chart.ppt",
+        "filetype": "Quad Chart",
+        "filesize": 86386,
+        "uploadedBy": "Spencer-PI",
+        "uploadedOn": "08/22/2018 08:24:55"
+      },
+      {
+        "id": 3,
+        "filename": "Revision Document.DOCX",
+        "filetype": "Federal Financial Report(SF-425)",
+        "filesize": 32021,
+        "uploadedBy": "Robinson-PI",
+        "uploadedOn": "06/22/2018 08:24:55"
+      },
+      {
+        "id": 4,
+        "filename": "Ultimate Presentation.ppt",
+        "filetype": "Other",
+        "filesize": 86088,
+        "uploadedBy": "Robinson-PI",
+        "uploadedOn": "05/11/2018 08:24:55"
+      },
+      {
+        "id": 5,
+        "filename": "MyChart.pdf",
+        "filetype": "Federal Financial Report(SF-425)",
+        "filesize": 434081,
+        "uploadedBy": "Tyler-PI",
+        "uploadedOn": "07/21/2018 08:24:55"
+      },
+      {
+        "id": 6,
+        "filename": "Classification Revision2.pdf",
+        "filetype": "Federal Financial Report(SF-995)",
+        "filesize": 43028,
+        "uploadedBy": "Robinson-PI",
+        "uploadedOn": "04/20/2018 08:24:55"
+      }
+
+    ]
+}

@@ -1,0 +1,88 @@
+.cDropdown {
+  position: relative;
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+  min-height: 1.1em;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  padding: 10px 14px;
+  padding-right: 26px;
+  border: 1px solid lightgrey;
+  font-size: 14px;
+  transition: all .2s ease-out;
+  outline:0;
+}
+.cDropdown:hover {
+  border-color: black;
+}
+.cDropdown * {
+  outline:0;
+}
+.cArrow {
+  position: absolute;
+  pointer-events: none;
+  right: 0;
+  top: 0;
+  height: 100%;
+}
+
+/* DROPDOWN STYLES */
+.cDrop {
+  position:absolute;
+  z-index: 1;
+  background-color: white;
+  padding: 10px 0px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 5px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  max-height: 350px;
+  overflow-y: scroll;
+}
+.cClose {
+  display: none;
+}
+
+/* OPTION STYLES */
+.groupLabel {
+  text-align: left;
+  padding: 10px 4px 10px 10px;
+  word-wrap:break-word;
+  font-weight: bold;
+  cursor: default;
+  background-color: white;
+}
+.optionLabel {
+  cursor: pointer;
+  text-align: left;
+  padding: 10px 4px 10px 40px;
+  font-weight: normal;
+  word-wrap:break-word;
+  display: flex;
+  align-items: center;
+}
+.optionLabel:hover {
+  background-color: #EEEEEE;
+}
+.allOption {
+  padding: 10px 4px 10px 10px !important;
+}
+
+.cOptIcon {
+  float: left !important;
+  display: table-cell !important;
+  margin-right: 10px;
+}
+.cOptLabel {
+  width: 100%;
+  vertical-align: top;
+  text-align: left;
+  word-wrap: break-word;
+  display: table-cell;
+}
+
+.cTextLabel {
+  margin-top: 20px;
+}
