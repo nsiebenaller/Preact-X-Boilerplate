@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{423:function(p){p.exports=JSON.parse('[{"id":1,"logno":"111","pi":"Brenda Spencer","preAppStatus":"Submitted","fullAppStatus":"Verified"},{"id":2,"logno":"12345","pi":"Brenda Red","preAppStatus":"Withdrawn","fullAppStatus":"Verified"},{"id":3,"logno":"554455","pi":"Kim Spencer","preAppStatus":"Approved","fullAppStatus":"Withdrawn"}]')}}]);
-//# sourceMappingURL=9.bundle.js.map

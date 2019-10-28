@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[24],{437:function(o){o.exports=JSON.parse('{"organizations":[{"id":1,"orgname":"Zero Inc."},{"id":2,"orgname":"Big Boy Company"},{"id":3,"orgname":"One-Two Inc."},{"id":4,"orgname":"Yellowstone Park"},{"id":5,"orgname":"Hammerhead Studios"}],"limit":0,"offset":1000}')}}]);
-//# sourceMappingURL=24.bundle.js.map
